@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Deals Page</title>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<!-- Backgroud color code = Light greay --> 
+<body style="background-color: #D3D3D3;">
+
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand">Deals</a>
+    <div class="d-flex">
+<a href="menu.html">   <button class="btn btn-light btn-outline-success" >Menu</button></a>
+<a href="deals.html">   <button class="btn btn-light btn-outline-success" >Deals</button></a>   
+<a href="cart.html">   <button class="btn btn-light btn-outline-success" >Cart</button></a>
+    </div>
+  </div>
+</nav>
+<!-- Linking with the cart page when user clicks Cart button -->
+
+
+
+<!-- Heading 1 and Heading 2 -->
+ <section id="about">
+          
+           <center>  
+            <div class="section-title p-4">
+                              <h2 style="font-family: 'Allura', cursive;opacity: 0.8;">Have a look at our Coffee Deals!</h2>
+                                    <h1 >Special Deals on many products :)</h1>
+                              </div>
+  </center>
+<!-- Center Allign the Headings -->
+            <center>    <div class="row container">
+
+                   
+<!-- Adding Images from the link provided and Displaying Names and their Prices -->
+   <div class="col-md-3 col-sm-6" style="border: 1px solid white;padding: 30px;">
+                                        <img src="images/p2.jpg" width="100%">
+                                        
+                                        <h2 class="normaltext">Cappuccino Coffee </h2>
+                                        
+                                        <p class="normaltext"> 25% Off for first 50 customers</p>
+                                   </div>                                  
+
+<div class="col-md-3 col-sm-5" style="border: 1px solid white;padding: 30px;">
+                                        <img src="images/p1.jpg" width="100%">
+                                        
+                                        <h2 class="normaltext">Iced Coffee</h2>
+                                        <p class="normaltext">Buy one get one Free for your Partner</p>
+                                   </div>
+
+                                  
+
+                                     <div class="col-md-3 col-sm-6" style="border: 1px solid white;padding: 30px;">
+                                        <img src="images/p3.jpg" width="100%">
+                                       
+                                        <h2 class="normaltext">Flat White</h2>
+                                        <p class="normaltext"><b>BOGO</b></p>
+                                   </div>
+
+                                     <div class="col-md-3 col-sm-6" style="border: 1px solid white;padding: 30px;">
+                                        <img src="images/p4.jpg" width="100%">
+                                        
+                                        <h2 class="normaltext">Arabica Coffee</h2>
+                                        <p class="normaltext"> Free Shipping</p>
+                                   </div>
+                                   <br />
+                                
+
+                                     <div class="col-md-3 col-sm-6" style="border: 1px solid white;padding: 30px;">
+                                        <img src="images/p6.jpg" width="100%">
+                                        
+                                        <h2 class="normaltext">Doppio Coffee</h2>
+                                        <p class="normaltext"> <b>BOGO</b></p>
+                                   </div>
+
+                                     <div class="col-md-3 col-sm-6" style="border: 1px solid white;padding: 30px;">
+                                        <img src="images/p7.jpg" width="100%">
+                                        
+                                        <h2 class="normaltext">Espresso Coffee</h2>
+                                        <p class="normaltext"> Free Shipping</p>
+                                   </div>
+  <div class="col-md-3 col-sm-5" style="border: 1px solid white;padding: 30px;">
+                                        <img src="images/p5.jpg" width="100%">
+                                        
+                                        <h2 class="normaltext">Black Coffee</h2>
+                                        <p class="normaltext"> 37% Discount</p>
+                                   </div>
+
+                                     <div class="col-md-3 col-sm-6" style="border: 1px solid white;padding: 30px;">
+                                        <img src="images/p8.jpg" width="100%">
+                                        
+                                        <h2 class="normaltext">Americano Coffee</h2>
+                                        <p class="normaltext"> <b>BOGO</b></p>
+                                   </div>
+
+                                  
+<!-- Dark button at the end showing view more but provided no link -->
+               </div>
+               <button class="black_button btn btn-dark" style="margin:30px;">View More</button>
+ </center>
+          
+     </section>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>   
+<head>
+ <!-- Tells the compiler that type utf-8 character is used for encoding into human readable form -->
+	<meta charset="utf-8"> 
+	<title>Login</title>    
+
+ <!-- It copies the font style from the css link -->
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">   
+</head>
+<style>
+body {
+  background-image: url('images/back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
+
+<!-- Login Button -->
+ <!-- Style for the login button
+      Font for the send button
+      Backgroud color #54C7C3 (blue) for the login button 
+      Text color #fff code means White-->
+<style type="text/css"> 
+	
+	.send-button{   
+        background: #808080;  
+	width:100%;
+	font-weight: 600;
+	color: #000000;
+	padding: 8px 25px;
+}
+</style>
+
+
+
+<!-- Create Account button
+     !important to not override previous style
+     backgroud color #ea4335 (red) for Button
+     #fff color is white for text -->
+<style type="text/css"> 
+.g-button{
+	color: #000000 !important;
+	border: 1px solid #808080;
+	background:#A9A9A9  !important;
+	width:100%;
+	font-weight: 600;
+	color: black;
+	padding: 8px 25px;
+}
+</style>
+
+
+
+<!-- The Input Button styling with RGB Styling -->
+<style type="text/css"> 
+.my-input{
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	cursor: text;
+	padding: 8px 10px;
+	transition: border .1s linear;
+}
+</style>
+
+
+
+<!-- Font and color for the heading 1 and heading 2 -->
+<style type="text/css"> 
+.header-title{
+	margin: 5rem 0;
+}
+h1{
+	font-size: 31px;
+	line-height: 40px;
+	font-weight: 600;
+	color:#fff;
+}
+h2{
+	color: #fff;
+	font-size: 21px;
+	line-height: 32px;
+	font-weight: 400;
+}
+</style>
+
+
+<!-- Font and color for the Display of Text or in between the two buttons -->
+<style type="text/css"> 
+.login-or {
+	position: relative;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+</style> 
+
+
+
+<style type="text/css"> 
+.span-or {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -2px;
+	margin-left: -25px;
+	
+	width: 50px;
+	text-align: center;
+}
+</style>
+
+
+<!-- Setting the height and top bottom margins -->
+<style type="text/css"> 
+.hr-or {
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+@media screen and (max-width:480px){
+	h1{ font-size: 26px; }
+	h2{ font-size: 20px; }
+} 
+</style>
+
+
+<body>
+
+
+<!-- Navigation Bars -->
+
+<nav class="navbar navbar-dark bg-dark">
+    
+  <div class="container-fluid">
+    <a class="navbar-brand">Login Page</a>
+    <div class="d-flex">
+     <a href="signup.html"> <button class="btn btn-light btn-outline-success" >Register</button></a>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- Text display as the heading 1 and heading 2 -->
+<div class="container">
+  <div class="col-md-6 mx-auto text-center">
+	 <div class="header-title">
+		<h1 class="wv-heading--title">
+		 Cofee is the Need!
+		</h1>
+		<h2 class="wv-heading--subtitle">
+		   Visit our Website and order your Cofee now!
+		</h2>
+	 </div>
+  </div>
+
+<!-- Input type email and input type Password -->
+  <div class="row" style="margin-top: -20px;">
+	 <div class="col-md-4 mx-auto">
+		<div class="myform form ">
+		   <form >
+			  <div class="form-group">
+				 <input type="email"  class="form-control my-input" id="email" placeholder="Email" >
+			  </div>
+			 
+			  <div class="form-group">
+				 <input type="password" id="pass"  class="form-control my-input" placeholder="Password" >
+			  </div>
+			  
+
+                         <!-- Interlinking the main.html file when clicked on login button -->
+
+			  <div class="text-center ">
+				<a href="menu.html" class=" btn btn-block send-button tx-tfm">Log In </a>
+			  </div>
+
+                            <!-- Display OR -->
+			  <div class="col-md-12 ">
+				 <div class="login-or">
+					<hr class="hr-or">
+					<span class="span-or">OR</span>
+				 </div>
+			  </div>
+                            <!-- Interlinking the signup.html file when clicked on create your account button -->
+			  <div class="form-group">
+				 <a class="btn btn-block g-button" href="signup.html">
+				 Create your Account now
+				 </a>
+			  </div>
+		   </form>
+		</div>
+	 </div>
+  </div>
+</div>
+
+
+
+	
+</body>
+</html>

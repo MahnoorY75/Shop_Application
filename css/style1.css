@@ -1,0 +1,118 @@
+<style>
+body {
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
+
+<!-- Login Button -->
+ <!-- Style for the login button
+      Font for the send button
+      Backgroud color #54C7C3 (blue) for the login button 
+      Text color #fff code means White-->
+<style type="text/css"> 
+	
+	.send-button{   
+        background: #808080;  
+	width:100%;
+	font-weight: 600;
+	color: #000000;
+	padding: 8px 25px;
+}
+</style>
+
+
+
+<!-- Create Account button
+     !important to not override previous style
+     backgroud color #ea4335 (red) for Button
+     #fff color is white for text -->
+<style type="text/css"> 
+.g-button{
+	color: #000000 !important;
+	border: 1px solid #808080;
+	background:#A9A9A9  !important;
+	width:100%;
+	font-weight: 600;
+	color: black;
+	padding: 8px 25px;
+}
+</style>
+
+
+
+<!-- The Input Button styling with RGB Styling -->
+<style type="text/css"> 
+.my-input{
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	cursor: text;
+	padding: 8px 10px;
+	transition: border .1s linear;
+}
+</style>
+
+
+
+<!-- Font and color for the heading 1 and heading 2 -->
+<style type="text/css"> 
+.header-title{
+	margin: 5rem 0;
+}
+h1{
+	font-size: 31px;
+	line-height: 40px;
+	font-weight: 600;
+	color:#fff;
+}
+h2{
+	color: #fff;
+	font-size: 21px;
+	line-height: 32px;
+	font-weight: 400;
+}
+</style>
+
+
+<!-- Font and color for the Display of Text or in between the two buttons -->
+<style type="text/css"> 
+.login-or {
+	position: relative;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+</style> 
+
+
+
+<style type="text/css"> 
+.span-or {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -2px;
+	margin-left: -25px;
+	
+	width: 50px;
+	text-align: center;
+}
+</style>
+
+
+<!-- Setting the height and top bottom margins -->
+<style type="text/css"> 
+.hr-or {
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+@media screen and (max-width:480px){
+	h1{ font-size: 26px; }
+	h2{ font-size: 20px; }
+} 
+</style>

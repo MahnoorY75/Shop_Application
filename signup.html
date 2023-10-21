@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Register</title>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<!-- Login Button -->
+ <!-- Style for the login button
+      Font for the send button
+      Backgroud color #54C7C3 (blue) for the login button 
+      Text color #fff code means White-->
+<style>
+body {
+  background-image: url('images/back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
+
+<!-- Login Button -->
+ <!-- Style for the login button
+      Font for the send button
+      Backgroud color #54C7C3 (blue) for the login button 
+      Text color #fff code means White-->
+<style type="text/css"> 
+	
+	.send-button{   
+        background: #808080;  
+	width:100%;
+	font-weight: 600;
+	color: #000000;
+	padding: 8px 25px;
+}
+</style>
+
+
+
+<!-- Create Account button
+     !important to not override previous style
+     backgroud color #ea4335 (red) for Button
+     #fff color is white for text -->
+<style type="text/css"> 
+.g-button{
+	color: #000000 !important;
+	border: 1px solid #808080;
+	background:#A9A9A9  !important;
+	width:100%;
+	font-weight: 600;
+	color: black;
+	padding: 8px 25px;
+}
+</style>
+
+
+
+<!-- The Input Button styling with RGB Styling -->
+<style type="text/css"> 
+.my-input{
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	cursor: text;
+	padding: 8px 10px;
+	transition: border .1s linear;
+}
+</style>
+
+
+
+<!-- Font and color for the heading 1 and heading 2 -->
+<style type="text/css"> 
+.header-title{
+	margin: 5rem 0;
+}
+h1{
+	font-size: 31px;
+	line-height: 40px;
+	font-weight: 600;
+	color:#fff;
+}
+h2{
+	color: #fff;
+	font-size: 21px;
+	line-height: 32px;
+	font-weight: 400;
+}
+</style>
+
+
+<!-- Font and color for the Display of Text or in between the two buttons -->
+<style type="text/css"> 
+.login-or {
+	position: relative;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+</style> 
+
+
+
+<style type="text/css"> 
+.span-or {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -2px;
+	margin-left: -25px;
+	
+	width: 50px;
+	text-align: center;
+}
+</style>
+
+
+<!-- Setting the height and top bottom margins -->
+<style type="text/css"> 
+.hr-or {
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+@media screen and (max-width:480px){
+	h1{ font-size: 26px; }
+	h2{ font-size: 20px; }
+} 
+</style>
+
+<body>
+
+
+
+<!-- Navigation bar -->
+
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand">Register</a>
+    <div class="d-flex">
+   <a href="login.html">   <button class="btn btn-light btn-outline-success" >Login</button></a>
+    </div>
+  </div>
+</nav>
+
+<!-- Links to login page when click on login button -->
+<div class="container">
+  <div class="col-md-6 mx-auto text-center">
+   <div class="header-title">
+    <h1>
+       Register yourself — it’s free!
+    </h1>
+<!-- Heading 1 -->
+    <h2>
+       "Never trust anyone who doesn't drink coffee."
+    </h2>
+<!-- Heading 2 -->
+   </div>
+  </div>
+  <div class="row" style="margin-top: -50px;">
+   <div class="col-md-4 mx-auto">
+    <div class="myform form ">
+       <form >
+    
+        </div>
+         
+
+        <!-- Taking input of Username email Id and Password -->
+        <div class="form-group">
+         <input type="text"  class="form-control my-input" id="username" placeholder="username" >
+        </div>
+
+        <div class="form-group">
+         <input type="email"  class="form-control my-input" id="email" placeholder="Email" >
+        </div>
+
+        <div class="form-group">
+         <input type="password" id="pass"  class="form-control my-input" placeholder="Password" >
+        </div>
+
+
+       <!-- Interlinking with the main page when clicked create account -->
+        <div class="text-center ">
+         <a href="menu.html" class=" btn btn-block send-button tx-tfm">Create Your Free Account</a>
+        </div>
+        <div class="col-md-12 ">
+         <div class="login-or">
+          <hr class="hr-or">
+          <span class="span-or">OR</span>
+         </div>
+        </div>
+
+<!-- Link with login page when clicked login button -->
+        <div class="form-group">
+         <a class="btn btn-block g-button" href="login.html">
+         LogIn
+         </a>
+        </div>
+        
+       </form>
+    </div>
+   </div>
+  </div>
+</div>
+
+	
+</body>
+</html>
